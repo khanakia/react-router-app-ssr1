@@ -1,10 +1,9 @@
 import { Link } from 'react-router';
-import logoDark from './logo-dark.svg';
-import logoLight from './logo-light.svg';
 const navigation = [
   { name: 'About', href: '/about', current: true },
   { name: 'Products', href: '/products', current: false },
   { name: 'Demo Product', href: '/products/1', current: false },
+  { name: 'Markdown Test', href: '/posts/test1', current: false },
 ];
 export function Welcome() {
   return (
